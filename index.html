@@ -1,37 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechnovaHome</title>
-    <link rel="stylesheet" href="./styles/index.css">
-    
+	<meta charset="utf-8"/>
+	<title>bootstrap 4 landing page with slider</title>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+	<!-- jquery cdn -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
-    
-    <nav class="nav">
-        <div class="container">
-            <h1 class="logo"><a href="/index.html">My Website</a></h1>
-            <ul>
-                <li><a href="#" class="current">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><button>Sign Up</button></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <div class="hero">
-        <div class="container">
-            <h1>Welcome To My Website</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
-        </div>
-    </div>
-    
-    <section class="container content">
+
+	<!-- <div class="container-fluid">
+		<div class="row"> -->
+			<!-- <div class="col-md-12 navbar">
+				<a href="index.html" class="logo navbar-brand text-white offset-md-2">Logo</a>
+				<ul class="nav">
+					<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div> -->
+             <header>
+            <nav class="nav">
+                <div class="container">
+                    <h3 class="logo"><a href="/index.html">My Website</a></h3>
+                    <ul>
+                        <li><a href="#" class="current">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button>Sign Up</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+			<!-- slider banner	 -->
+
+
+            <section class="home">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<div class="info">
+			      		<h1>SLIDE ONE</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="info">
+			      		<h1>SLIDE TWO</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="info">
+			      		<h1>SLIDE THREE</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+        </section>
+		<!-- </div>
+	</div> -->
+     
+    <section class="about">
         <h2>Content One</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem voluptates eveniet tempora ut cupiditate magnam, sapiente, hic quo in ipsum iste soluta eaque perferendis nihil recusandae dolore officia aperiam corporis similique. Facilis quos tempore labore totam! Consectetur molestiae iusto ducimus error reiciendis aspernatur dolor, modi dolorem sit architecto, voluptate magni sunt unde est quas? Voluptates a dolorum voluptatum quo perferendis aut sit. Aspernatur libero laboriosam ab eligendi omnis delectus earum labore, placeat officiis sint illum rem voluptas ipsum repellendus iste eius recusandae quae excepturi facere, iure rerum sequi? Illum velit delectus dicta et iste dolorum obcaecati minus odio eligendi!</p>
     
@@ -39,7 +91,10 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur provident nostrum possimus inventore nisi laboriosam consequatur modi nulla eos, commodi, omnis distinctio! Maxime distinctio impedit provident, voluptates illo odio nostrum minima beatae similique a sint sapiente voluptatum atque optio illum est! Tenetur tempora doloremque quae iste aperiam hic cumque repellat?</p>
     </section>
 
-    <script src="./js/index.js"></script>
+
+	<!-- scripts -->
+	<!-- bootstrap javascript cdn -->
+    <script src="js/index.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
-
