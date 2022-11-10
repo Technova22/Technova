@@ -25,3 +25,13 @@ signUpBtn.addEventListener("click", () => {
 
 fistForm.addEventListener("submit", (e) => e.preventDefault());
 secondForm.addEventListener("submit", (e) => e.preventDefault());
+
+function onChangePassword() {
+    const password = document.querySelector('input[name=password]');
+    const confirm = document.querySelector('input[name=confirmpassword]');
+    if (confirm.value === password.value) {
+      confirm.setCustomValidity('');
+    } else {
+      confirm.setCustomValidity('Passwords do not match');
+    }
+  }

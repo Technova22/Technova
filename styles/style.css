@@ -19,7 +19,7 @@
 body{
 	color: #222222;
   	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 50px;
+
 }
 .container {
 	margin: 0 auto;
@@ -148,19 +148,19 @@ font-weight: bold;
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url('../images/22.jpg');
+	background: url('../images/101.jpeg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('../images/21.jpg');
+	background: url('../images/102.jpeg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('../images/18.jpg');
+	background: url('../images/103.jpeg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
@@ -206,7 +206,7 @@ font-weight: bold;
 }
 
 
-.work{
+.event{
 	/* background: #010124; */
 	background: white;
   display: grid;
@@ -221,14 +221,14 @@ font-weight: bold;
   .heading span{
 	color: #7303a7;;
   }
-  .work h2{
+  .event h2{
 	color:black;
 	padding: 1rem;
   }
-  .work .heading span{
+  .event .heading span{
 	color: blue;
   }
-  .work .box-container{
+  .event .box-container{
 	display: flex;
 	flex-wrap: wrap;
 	gap:1.5rem;
@@ -308,22 +308,22 @@ margin-bottom: 10px;
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url("../images/8.jpg");
+  background-image: url("../images/115.jpeg");
 }
 .card:nth-child(2):before {
-  background-image: url("../images/9.jpg");
+  background-image: url("../images/114.jpeg");
 }
 .card:nth-child(3):before {
-  background-image: url("../images/13.jpg");
+  background-image: url("../images/110.jpeg");
 }
 .card:nth-child(4):before {
-  background-image: url("../images/10.jpg");
+  background-image: url("../images/113.jpeg");
 }
 .card:nth-child(5):before {
-  background-image: url("../images/11.jpg");
+  background-image: url("../images/112.jpeg");
 }
 .card:nth-child(6):before {
-  background-image: url("../images/12.jpg");
+  background-image: url("../images/111.jpeg");
 }
 
 .content {

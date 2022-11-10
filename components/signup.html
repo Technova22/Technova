@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup " >
+            <form action="#" class="form" id="form1" style="overflow: scroll;">
+                <div style="position: relative;top: 18%;">
+                    <h2 class="form__title" style="position: relative;top: 12%;">Sign Up</h2>
+                </div>
+               
+                <div class="input-box" style="margin-top: 70px;">
+                    <input type="number"  id="rollno" required>
+                    <label for="rollno">Roll No.</label>
+                  </div>
+                <div class="input-box">
+                    <input type="text" id="fullname" required>
+                    <label for="username">Full Name</label>
+                  </div>
+                  <div class="input-box">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" id="password" required>
+                    <label name="password" for="password" onchange="onChangePassword()">Password</label>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" id="confirmpassword" required>
+                    <label name="confirmpassword" for="confirmpassword" onchange="onChangePassword()">Confirm Password</label>
+                  </div>
+                <button class="btn" onclick="signup()">Sign Up</button>
+            </form>
+        </div>
+    
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Sign In</h2>
+                <div class="input-box">
+                    <input type="text" id="emaillogin" required>
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" id="passwordlogin" required>
+                    <label for="password">Password</label>
+                  </div>
+                <a href="#" class="link">Forgot your password?</a>
+                <button class="btn" onclick="login()">Log In</button>
+            </form>
+        </div>
+    
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp" >Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      // Import the functions you need from the SDKs you need
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="../js/firebaseConfig.js"></script>
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    
+
+    <script src="../js/index.js"></script>
+  
+</body>
+</html>
