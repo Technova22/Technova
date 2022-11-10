@@ -1,0 +1,37 @@
+[
+   {
+      "id": "0",
+      "eventName": "Arduino",
+      "eventDescripton": "THis is arduino challenge to make interesting gadgets. Fugit cumque beatae ut error laudantium nam, temporibus dolore aspernatur tempore.",
+      "eventImage": "url(../Images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg)",
+       "rules": "<ul><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolsit amet, consetetur sadipscing elitr</li></ul>"
+    },
+    {
+        "id": "1",
+        "eventName": "Web Development",
+        "eventDescripton": "This is web development challenge to make amazing websites. Fugit cumque beatae ut error laudantium nam, temporibus dolore aspernatur tempore.",
+        "eventImage": "url(../Images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg)",
+         "rules": "<ul><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolsit amet, consetetur sadipscing elitr</li></ul>"
+      },
+      {
+        "id": "2",
+        "eventName": "Robot Race",
+        "eventDescripton": "Get ready for a robo race challenge. Fugit cumque beatae ut error laudantium nam, temporibus dolore aspernatur tempore.",
+        "eventImage": "url(../Images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg)",
+         "rules": "<ul><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolsit amet, consetetur sadipscing elitr</li></ul>"
+      },
+      {
+        "id": "3",
+        "eventName": "PUBG",
+        "eventDescripton": "Get ready and register for interesting gaming challenge. Fugit cumque beatae ut error laudantium nam, temporibus dolore aspernatur tempore.",
+        "eventImage": "url(../Images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg)",
+         "rules": "<ul><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolsit amet, consetetur sadipscing elitr</li></ul>"
+      },
+      {
+        "id": "4",
+        "eventName": "Coding King",
+        "eventDescripton": "Lets find out who is the Coding king. Fugit cumque beatae ut error laudantium nam, temporibus dolore aspernatur tempore.",
+        "eventImage": "url(../Images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg)",
+         "rules": "<ul><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li><li>Lorem ipsum dolsit amet, consetetur sadipscing elitr</li></ul>"
+      }
+]
